@@ -108,3 +108,11 @@ $ls
 Dorothy			Good_Witch_of_the_North
 Flying_Monkeys		Good_Witch_of_the_South
 
+ Wed Sep 07 01:26:27 ~/Emerald_City
+$ echo "Diploma" > Scarecrow
+  Wed Sep 07 01:26:32 ~/Emerald_City
+$ echo "Hear_Shape_Watch" > Tin_Man
+  Wed Sep 07 01:26:57 ~/Emerald_City
+$ echo "Medal" > Cowardly_Lion
+
+

@@ -1,0 +1,110 @@
+  Wed Sep 07 00:56:33 ~
+$cd
+  Wed Sep 07 00:59:21 ~
+$mkdir House
+  Wed Sep 07 00:59:29 ~
+$cd house
+
+  Wed Sep 07 00:59:32 ~/house
+$touch Dorothy Toto
+  Wed Sep 07 00:59:43 ~/house
+$ls
+Dorothy	Toto
+
+  Wed Sep 07 00:59:44 ~/house
+$cd
+  Wed Sep 07 00:59:48 ~
+$mkdir Oz
+  Wed Sep 07 01:02:53 ~
+$cd oz
+
+    Wed Sep 07 01:01:29 ~/Oz
+$touch Good_Witch_of_the_North Wicked_Witch_of_the_East Good_Witch_of_the_South 
+Wicked_Witch_of_the_West 
+  Wed Sep 07 01:04:29 ~/oz
+$ls
+Good_Witch_of_the_North		Wiced_Witch_of_the_East
+Good_Witch_of_the_South		Wicked_Witch_of_the_West
+
+
+
+
+  Wed Sep 07 01:05:23 ~/oz
+$rm Wiced_Witch_of_the_East
+  Wed Sep 07 01:05:41 ~/oz
+$ls
+Good_Witch_of_the_North		Wicked_Witch_of_the_West
+Good_Witch_of_the_South
+
+  Wed Sep 07 01:06:01 ~/oz
+$cd
+  Wed Sep 07 01:06:12 ~
+$cd house
+  Wed Sep 07 01:06:14 ~/house
+$mv Dorothy ~/oz
+  Wed Sep 07 01:06:29 ~/house
+$cd
+  Wed Sep 07 01:06:32 ~
+$cd oz
+  Wed Sep 07 01:06:37 ~/oz
+$ls
+Dorothy				Good_Witch_of_the_South
+Good_Witch_of_the_North		Wicked_Witch_of_the_West
+
+
+
+  Wed Sep 07 01:06:38 ~/oz
+$touch Scarecrow Tin_man Cowardly_Lion
+  Wed Sep 07 01:07:59 ~/oz
+$ls
+Cowardly_Lion			Scarecrow
+Dorothy				Tin_man
+Good_Witch_of_the_North		Wicked_Witch_of_the_West
+Good_Witch_of_the_South
+
+Wed Sep 07 01:06:38 ~/oz
+$touch Scarecrow Tin_man Cowardly_Lion
+  Wed Sep 07 01:07:59 ~/oz
+$ls
+Cowardly_Lion			Scarecrow
+Dorothy				Tin_man
+Good_Witch_of_the_North		Wicked_Witch_of_the_West
+Good_Witch_of_the_South
+  Wed Sep 07 01:08:01 ~/oz
+$cd
+  Wed Sep 07 01:08:18 ~
+$mkdir Emerald_City
+  Wed Sep 07 01:08:26 ~
+$cd oz
+  Wed Sep 07 01:08:49 ~/oz
+$mv Scarecrow Tin_Man Cowardly_Lion ~/Emerald_City
+  Wed Sep 07 01:09:18 ~/oz
+$cd
+  Wed Sep 07 01:09:22 ~
+$cd Emerald_City
+  Wed Sep 07 01:09:29 ~/Emerald_City
+$ls
+Cowardly_Lion	Scarecrow	Tin_Man
+
+
+
+
+  Wed Sep 07 01:11:21 ~/Emerald_City
+$cd
+  Wed Sep 07 01:11:25 ~
+$cd oz
+  Wed Sep 07 01:11:27 ~/oz
+$touch Flying_Monkeys
+  Wed Sep 07 01:11:36 ~/oz
+$ls
+Dorothy				Good_Witch_of_the_South
+Flying_Monkeys			Wicked_Witch_of_the_West
+Good_Witch_of_the_North
+
+  Wed Sep 07 01:11:38 ~/oz
+$rm Wicked_Witch_of_the_West
+  Wed Sep 07 01:12:22 ~/oz
+$ls
+Dorothy			Good_Witch_of_the_North
+Flying_Monkeys		Good_Witch_of_the_South
+
